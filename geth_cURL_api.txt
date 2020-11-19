@@ -1,0 +1,29 @@
+curl \
+  --header "Content-Type: application/json" \
+  --request POST \
+  --data '{"jsonrpc":"2.0","method":"eth_getBalance","params":["0x57bc6880599b8f9efd1ce70d613b8640bcadf2f7","latest"],"id":0}' \
+  192.168.0.121:8545|jq
+
+curl \
+  --header "Content-Type: application/json" \
+  --request POST \
+  --data '{"jsonrpc":"2.0","method":"eth_blockNumber","params":[],"id":0}' \
+  192.168.0.121:8545|jq
+
+curl \
+  --header "Content-Type: application/json" \
+  --request POST \
+  --data '{"jsonrpc":"2.0","method":"eth_getWork","params":[],"id":0}' \
+  192.168.0.121:8545|jq
+
+curl \
+  --header "Content-Type: application/json" \
+  --request POST \
+  --data '{"jsonrpc":"2.0","method":"eth_syncing","params":[],"id":0}' \
+  192.168.0.121:8545|jq
+
+curl \
+  --header "Content-Type: application/json" \
+  --request POST \
+  --data '{"jsonrpc":"2.0","method":"eth_mining","params":[],"id":0}' \
+  192.168.0.121:8545|jq

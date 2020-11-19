@@ -1,0 +1,15 @@
+/media/pi/PiDrive/src/mist-0.11.1/
+
+yarn dev:electron \
+--loglevel debug \
+--binPath "/media/pi/PiDrive/bin/geth" \
+--gethpath "/media/pi/PiDrive/bin/geth" \
+--node-ipcpath "/media/pi/PiDrive/src/geth/geth.ipc" \
+--node-datadir "/media/pi/PiDrive/src/geth/"
+
+yarn dev:electron \
+--mode wallet \
+--loglevel trace \
+--geth "/media/pi/PiDrive/bin/geth" \
+--rpc "/media/pi/PiDrive/src/geth/geth.ipc" \
+--datadir "/media/pi/PiDrive/src/geth"
