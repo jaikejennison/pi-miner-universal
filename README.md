@@ -5,6 +5,7 @@ ARM 32/64 bit (v6/v8) build of geth for arm v6 &amp; arm v8 with run scripts and
 In the `piminer_genesis.json` file
 - change `"chainId": 0`
 - change `"coinbase": "0x0000000000000000000000000000000000000000"`
+
 For Raspberry Pi 4 devices running `buster 64` run
 ```bash
 ./piMiner64.sh
