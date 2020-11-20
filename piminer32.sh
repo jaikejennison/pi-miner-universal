@@ -42,10 +42,8 @@
 #   --autodag
 #   --cache=4096
 #   --networkid "1"
-#   --identity "0o0PiMiner640o0"
 #   console
-#   --identity "0x6e76383372"
-#		Coinbase walett address 0xFE70ef07D329E7DfFe128b4F3dBCB55e916e3779
+#
 # ################################################################ #
 ROOTDIR=`pwd`
 GETHBIN="$ROOTDIR/bin"
@@ -53,10 +51,10 @@ DATADIR="$ROOTDIR/.ethereum"
 DAGDIR="$ROOTDIR/.ethash"
 APIADDR="0.0.0.0"
 APIMODS="admin, db, debug, eth, miner, net, personal, shh, txpool, web3"
-ACCOUNT="0x5cd9f5415a69c160e319cbe75db056f9374c98ca"
+ACCOUNT=""
 GPRICE="2500000000"
 GLIMIT="8000071"
-IDDATA="PiMiner64"
+IDDATA=""
 "$GETHBIN/geth" \
 	--verbosity=3 \
 	--networkid=1 \
