@@ -1,4 +1,4 @@
-# pi-miner-universal
+# pi-miner-universal (WIP)
 ARM 32/64 bit (v6/v8) build of geth for ARM v6 &amp; ARM v8 with run scripts and remote API support for Raspberry Pi 1,2,3 &amp; 4 Devices
 
 ## Quick Start
